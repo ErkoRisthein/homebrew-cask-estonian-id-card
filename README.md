@@ -6,7 +6,7 @@ Estonian ID-Card cask.
 After you install Homebrew, run the following command:
 
 ```sh
-$ brew tap ErkoRisthein/homebrew-cask-estonian-id-card
+$ brew tap ErkoRisthein/cask-estonian-id-card
 ```
 
 You can now install the casks in this repo.
