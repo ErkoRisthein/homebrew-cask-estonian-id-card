@@ -1,11 +1,11 @@
 cask 'eid-ee' do
-  version '18.12.0.1815'
-  sha256 '3247750cf358833fa56db51b8f161a5d442a2b3d23c503b62c3de04238c0ac3e'
+  version '23.7.0.194'
+  sha256 'ca4afad1f2f4d5c234f3bb687b204d442b6240b570d7de6cda141ca369a3c72d'
 
   url "https://installer.id.ee/media/osx/Open-EID_#{version}.dmg"
   name 'Electronic identity card software for Estonia'
   name 'eID Estonia'
-  homepage 'https://installer.id.ee/?lang=eng'
+  homepage 'https://www.id.ee/en/article/install-id-software/'
 
   pkg 'Open-EID.pkg'
 
@@ -17,7 +17,7 @@ cask 'eid-ee' do
             quit:   'ee.ria.TokenSigningApp'
 
   caveats <<~EOS
-    DigiDoc4 Client and ID-card Utility are available in the App Store:
-      https://appstore.com/mac/ria
+    DigiDoc4 Client and Web eID are available in the App Store:
+      https://apps.apple.com/ee/developer/ria/id556524921
   EOS
 end
