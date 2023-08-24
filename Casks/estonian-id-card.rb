@@ -1,4 +1,4 @@
-cask 'eid-ee' do
+cask 'estonian-id-card' do
   version '23.7.0.194'
   sha256 'ca4afad1f2f4d5c234f3bb687b204d442b6240b570d7de6cda141ca369a3c72d'
 
