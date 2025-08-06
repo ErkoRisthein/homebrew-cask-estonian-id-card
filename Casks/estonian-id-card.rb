@@ -1,5 +1,5 @@
 cask 'estonian-id-card' do
-  version '25.5.0.195'
+  version '25.5.0.1954'
   sha256 '1ceef9fa6ae4146275578322e2244fdc745d917e9042a9f92bedb1e36fd9a9a5'
 
   url "https://installer.id.ee/media/osx/Open-EID_#{version}.dmg"
